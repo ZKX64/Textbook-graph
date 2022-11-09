@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T11:15:08.708Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yQugR6tNdP2PKuU4iQuD" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-09T11:18:32.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yEUJZRF0C3EtIHCDjXQ-" version="20.5.3" type="github">
   <diagram id="xxOz_vh-viqZZls2WlVO" name="Page-1">
-    <mxGraphModel dx="1559" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1329" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,12 +118,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v0ePYlTC_sWRzD4rO0_P-62" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;strokeWidth=4;fontFamily=Courier New;fontSize=17;fontColor=#FF3333;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=entityRelationEdgeStyle;" edge="1" parent="1" target="v0ePYlTC_sWRzD4rO0_P-57">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="30" y="230" as="sourcePoint" />
-            <mxPoint x="440" y="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="v0ePYlTC_sWRzD4rO0_P-63" value="&lt;font color=&quot;#000000&quot; size=&quot;1&quot; face=&quot;Lucida Console&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;静态CFG&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;fontFamily=Courier New;fontSize=17;fontColor=#FF3333;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-14" y="300" width="120" height="60" as="geometry" />
         </mxCell>
@@ -131,7 +125,17 @@
           <mxGeometry x="290" y="300" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="v0ePYlTC_sWRzD4rO0_P-65" value="&lt;font color=&quot;#ff3333&quot;&gt;攻击者劫持后控制流转移&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;fontFamily=Lucida Console;fontSize=18;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="100" width="200" height="60" as="geometry" />
+          <mxGeometry x="-120" y="60" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="v0ePYlTC_sWRzD4rO0_P-75" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;strokeWidth=2;fontFamily=Lucida Console;fontSize=18;fontColor=#FF3333;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="v0ePYlTC_sWRzD4rO0_P-57">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="230" as="sourcePoint" />
+            <mxPoint x="230" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="180" />
+              <mxPoint x="310" y="150" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
