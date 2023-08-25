@@ -1,21 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-08-25T00:53:02.585Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="qOg0j6TTdm_jD8I0_TX3" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-25T00:58:30.179Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.54" etag="6CJu7w-UCFnm43QjKvqC" version="21.6.9" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1245" dy="1912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="922" dy="1719" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;CKKS-LeveledFHE&lt;/font&gt;" style="swimlane;html=1;startSize=40;horizontal=1;containerType=tree;glass=0;fillColor=#CCCCCC;" parent="1" vertex="1">
-          <mxGeometry x="40" y="-820" width="1529.9999999999995" height="1470" as="geometry">
+          <mxGeometry x="60" y="-760" width="2080" height="1680" as="geometry">
             <mxRectangle x="40" y="80" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-154" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Key Generation&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=50;horizontal=1;containerType=tree;glass=0;align=center;verticalAlign=middle;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="20" y="500" width="1499.9999999999995" height="926" as="geometry">
-            <mxRectangle x="40" y="80" width="90" height="30" as="alternateBounds" />
+          <mxGeometry x="120" y="1010" width="1240" height="670" as="geometry">
+            <mxRectangle x="120" y="1010" width="190" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-186" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Key&lt;/font&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-154">
-          <mxGeometry x="450" y="600" width="190" height="70" as="geometry" />
+          <mxGeometry x="450" y="364" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-187" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Abstract interface class for &amp;nbsp;Keys&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-186">
           <mxGeometry y="26" width="190" height="44" as="geometry" />
@@ -23,64 +23,64 @@
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-154" source="F4W6GdJIVFa8Bw8fIA7z-188" target="F4W6GdJIVFa8Bw8fIA7z-186">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="875" y="750" />
-              <mxPoint x="545" y="750" />
+              <mxPoint x="875" y="514" />
+              <mxPoint x="545" y="514" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.498;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-154" source="F4W6GdJIVFa8Bw8fIA7z-191" target="F4W6GdJIVFa8Bw8fIA7z-187">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="415" y="750" />
-              <mxPoint x="545" y="750" />
+              <mxPoint x="415" y="514" />
+              <mxPoint x="545" y="514" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-191" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;CryptoObject&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-154">
-          <mxGeometry x="324" y="765" width="190" height="120" as="geometry" />
+          <mxGeometry x="324" y="529" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-192" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;A class to aid in referring to the crypto context that an object belongs to&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-191">
           <mxGeometry y="26" width="190" height="94" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" target="F4W6GdJIVFa8Bw8fIA7z-202" source="F4W6GdJIVFa8Bw8fIA7z-186" parent="F4W6GdJIVFa8Bw8fIA7z-154">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="765" y="540" as="sourcePoint" />
+            <mxPoint x="765" y="304" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-202" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;PublicKeyImpl&amp;lt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Element&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-154">
-          <mxGeometry x="324" y="456" width="190" height="70" as="geometry" />
+          <mxGeometry x="324" y="220" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-203" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;Class for puublic key&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-202">
           <mxGeometry y="26" width="190" height="44" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" target="F4W6GdJIVFa8Bw8fIA7z-205" source="F4W6GdJIVFa8Bw8fIA7z-186" parent="F4W6GdJIVFa8Bw8fIA7z-154">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="795" y="514" as="sourcePoint" />
+            <mxPoint x="795" y="278" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-154" source="F4W6GdJIVFa8Bw8fIA7z-205">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="376" as="targetPoint" />
+            <mxPoint x="550" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-205" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;PrivateKeyImpl&lt;/font&gt;&amp;lt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-weight: normal;&quot;&gt;Element&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-weight: normal;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-154">
-          <mxGeometry x="600" y="456" width="190" height="70" as="geometry" />
+          <mxGeometry x="600" y="220" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-206" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Class for private key&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-205">
           <mxGeometry y="26" width="190" height="44" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" target="F4W6GdJIVFa8Bw8fIA7z-208" source="F4W6GdJIVFa8Bw8fIA7z-202" parent="F4W6GdJIVFa8Bw8fIA7z-154">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="665" y="384" as="sourcePoint" />
+            <mxPoint x="665" y="148" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="419" y="416" />
-              <mxPoint x="550" y="416" />
-              <mxPoint x="550" y="376" />
+              <mxPoint x="419" y="180" />
+              <mxPoint x="550" y="180" />
+              <mxPoint x="550" y="140" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-208" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;KeyPair&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-154">
-          <mxGeometry x="450" y="306" width="190" height="70" as="geometry" />
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-208" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;KeyPair&amp;lt;DCRTPoly&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-154">
+          <mxGeometry x="450" y="70" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-209" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;The pair of publicKey &amp;amp;&amp;amp; secretKey class&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-208">
           <mxGeometry y="26" width="190" height="44" as="geometry" />
@@ -88,8 +88,8 @@
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-215" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="F4W6GdJIVFa8Bw8fIA7z-188" target="F4W6GdJIVFa8Bw8fIA7z-216" parent="F4W6GdJIVFa8Bw8fIA7z-154">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="875" y="750" />
-              <mxPoint x="1120" y="750" />
+              <mxPoint x="875" y="514" />
+              <mxPoint x="1120" y="514" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -97,13 +97,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-224" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;BinFHEContext&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-154">
-          <mxGeometry x="779.9999999999995" y="306" width="190" height="70" as="geometry" />
+          <mxGeometry x="779.9999999999995" y="70" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-225" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;+method(LWEPrivateKey)&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:KeyGen()&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-224">
           <mxGeometry y="26" width="190" height="44" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-216" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;LWEPrivateKeyImpl&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-154">
-          <mxGeometry x="1029.9999999999995" y="306" width="190" height="70" as="geometry" />
+          <mxGeometry x="1029.9999999999995" y="70" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-217" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Class that stores the LWE scheme secret key&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-216">
           <mxGeometry y="26" width="190" height="44" as="geometry" />
@@ -115,17 +115,136 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-188" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Serializable&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-154">
-          <mxGeometry x="780" y="790" width="190" height="70" as="geometry" />
+          <mxGeometry x="780" y="554" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-189" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Base class for OpenFHE serialization&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-188">
           <mxGeometry y="26" width="190" height="44" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-234" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#67ab9f&quot;&gt;Object:cc&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;font color=&quot;#67ab9f&quot;&gt;cc.EvalMultKeyGen(keyPair.secretKey)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;font color=&quot;#67ab9f&quot;&gt;cc.EvalAtIndexKeyGen(keyPair.secretKey, indexList)&lt;/font&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;rounded=1;fillColor=#E6E6E6;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-154">
-          <mxGeometry x="20" y="310" width="373.5" height="90" as="geometry" />
+          <mxGeometry x="20" y="74" width="373.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-154" source="F4W6GdJIVFa8Bw8fIA7z-209" target="F4W6GdJIVFa8Bw8fIA7z-234">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410.0000000000002" y="354.5" as="targetPoint" />
+            <mxPoint x="410.0000000000002" y="118.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-241" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Encryption&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;html=1;startSize=50;horizontal=1;containerType=tree;glass=0;align=center;verticalAlign=middle;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="780" y="700" width="1240" height="670" as="geometry">
+            <mxRectangle x="780" y="700" width="190" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-242" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Key&lt;/font&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-241">
+          <mxGeometry x="450" y="364" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-243" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Abstract interface class for &amp;nbsp;Keys&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-242">
+          <mxGeometry y="26" width="190" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-244" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-241" source="F4W6GdJIVFa8Bw8fIA7z-266" target="F4W6GdJIVFa8Bw8fIA7z-242">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="875" y="514" />
+              <mxPoint x="545" y="514" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-245" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.498;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-241" source="F4W6GdJIVFa8Bw8fIA7z-246" target="F4W6GdJIVFa8Bw8fIA7z-243">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="415" y="514" />
+              <mxPoint x="545" y="514" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-246" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;CryptoObject&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-241">
+          <mxGeometry x="324" y="529" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-247" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;A class to aid in referring to the crypto context that an object belongs to&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-246">
+          <mxGeometry y="26" width="190" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-241" source="F4W6GdJIVFa8Bw8fIA7z-242" target="F4W6GdJIVFa8Bw8fIA7z-249">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765" y="304" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-249" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;PublicKeyImpl&amp;lt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Element&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-241">
+          <mxGeometry x="324" y="220" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-250" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;Class for puublic key&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-249">
+          <mxGeometry y="26" width="190" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-241" source="F4W6GdJIVFa8Bw8fIA7z-242" target="F4W6GdJIVFa8Bw8fIA7z-253">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="795" y="278" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-241" source="F4W6GdJIVFa8Bw8fIA7z-253">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-253" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;PrivateKeyImpl&lt;/font&gt;&amp;lt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-weight: normal;&quot;&gt;Element&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-weight: normal;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-241">
+          <mxGeometry x="600" y="220" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-254" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Class for private key&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-253">
+          <mxGeometry y="26" width="190" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-241" source="F4W6GdJIVFa8Bw8fIA7z-249" target="F4W6GdJIVFa8Bw8fIA7z-256">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="148" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="419" y="180" />
+              <mxPoint x="550" y="180" />
+              <mxPoint x="550" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-256" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;KeyPair&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-241">
+          <mxGeometry x="450" y="70" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-257" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;The pair of publicKey &amp;amp;&amp;amp; secretKey class&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-256">
+          <mxGeometry y="26" width="190" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-258" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-241" source="F4W6GdJIVFa8Bw8fIA7z-266" target="F4W6GdJIVFa8Bw8fIA7z-262">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="875" y="514" />
+              <mxPoint x="1120" y="514" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-259" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-241" source="F4W6GdJIVFa8Bw8fIA7z-266" target="F4W6GdJIVFa8Bw8fIA7z-260">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-260" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;BinFHEContext&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-241">
+          <mxGeometry x="779.9999999999995" y="70" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-261" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;+method(LWEPrivateKey)&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;:KeyGen()&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-260">
+          <mxGeometry y="26" width="190" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-262" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#000000&quot;&gt;LWEPrivateKeyImpl&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-241">
+          <mxGeometry x="1029.9999999999995" y="70" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-263" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;Class that stores the LWE scheme secret key&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-262">
+          <mxGeometry y="26" width="190" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-264" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-241" source="F4W6GdJIVFa8Bw8fIA7z-263" target="F4W6GdJIVFa8Bw8fIA7z-261">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-241" source="F4W6GdJIVFa8Bw8fIA7z-261" target="F4W6GdJIVFa8Bw8fIA7z-257">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-266" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Serializable&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBorderColor=none;labelBackgroundColor=default;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-241">
+          <mxGeometry x="780" y="554" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-267" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;Base class for OpenFHE serialization&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#333333;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-266">
+          <mxGeometry y="26" width="190" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-268" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#67ab9f&quot;&gt;Object:cc&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;font color=&quot;#67ab9f&quot;&gt;cc.EvalMultKeyGen(keyPair.secretKey)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;font color=&quot;#67ab9f&quot;&gt;cc.EvalAtIndexKeyGen(keyPair.secretKey, indexList)&lt;/font&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;rounded=1;fillColor=#E6E6E6;" vertex="1" parent="F4W6GdJIVFa8Bw8fIA7z-241">
+          <mxGeometry x="20" y="74" width="373.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="F4W6GdJIVFa8Bw8fIA7z-269" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="F4W6GdJIVFa8Bw8fIA7z-241" source="F4W6GdJIVFa8Bw8fIA7z-257" target="F4W6GdJIVFa8Bw8fIA7z-268">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410.0000000000002" y="118.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="F4W6GdJIVFa8Bw8fIA7z-2" target="dNxyNK7c78bLwvsdeMH5-11">
@@ -268,7 +387,7 @@
           <mxGeometry y="26" width="190" height="44" as="geometry" />
         </mxCell>
         <mxCell id="F4W6GdJIVFa8Bw8fIA7z-233" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 18px;&quot;&gt;Provide an Context object:&lt;font color=&quot;#ff6666&quot;&gt;cc&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="810" y="680" width="290" height="60" as="geometry" />
+          <mxGeometry x="820" y="680" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
